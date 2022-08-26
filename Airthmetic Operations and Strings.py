@@ -5,9 +5,38 @@
 #There are 7 arithmetic operators in Python :
 
 #Addition
+
+age1 = 4
+age2 = 5
+
+print("Addition")
+Plus_age = age1 + age2
+print(Plus_age)
 #Subtraction
+
+print("Subtraction")
+Subtraction = age1 - age2
+print(Subtraction)
+
 #Multiplication
+print("Multiplication")
+Multiplication = age1 * age2
+print(Multiplication)
 #Division
+
+print("Division")
+Division_age = age1/ age2
+print(Division_age)
 #Modulus
-#Exponentiation
-#Floor division
+
+print("Modulus")
+Modulus_age = age1 % age2
+print(Modulus_age)
+
+#Strings
+
+FirstName = "Bilal"
+LastName = "Saeed"
+
+Name = FirstName + " " + LastName
+print(Name)
