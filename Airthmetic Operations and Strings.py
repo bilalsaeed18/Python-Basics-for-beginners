@@ -40,3 +40,19 @@ LastName = "Saeed"
 
 Name = FirstName + " " + LastName
 print(Name)
+
+Sentence = "I'm playing cricket"
+print(Sentence[0])
+print(Sentence[5])
+print(Sentence[0:12])
+print(Sentence[:-4])
+
+
+#Placeholders in Strings
+
+# Use '%' sign to tell that this is a placeholder
+# Use 's' to tell that what type is it and where to go
+
+Name2 = "John"
+sent = "%s is 25 Years Old"
+print(sent%Name2)
